@@ -1,0 +1,39 @@
+### Python ###
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+dist/
+*.egg-info/
+.eggs/
+
+### Testing / coverage ###
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+
+### Linters / type checkers ###
+.mypy_cache/
+.ruff_cache/
+
+### Environment / secrets — NEVER commit these ###
+.env
+.env.*
+!.env.example
+docker/.env
+docker/.env.*
+!docker/.env.example
+
+### Uploads / generated files ###
+/tmp/invoice_uploads/
+uploads/
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### IDE ###
+.vscode/
+.idea/
+*.swp
