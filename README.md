@@ -109,7 +109,7 @@ cp docker/.env.example docker/.env
 Open `docker/.env` in any text editor and fill in:
 
 ```env
-OPENAI_API_KEY=sk-proj-your-actual-key-here
+OPENAI_API_KEY=your_openai_api_key
 SECRET_KEY=any-random-string-at-least-32-characters-long
 ```
 
